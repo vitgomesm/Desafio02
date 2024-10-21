@@ -1,0 +1,118 @@
+/* Importando a fonte */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Baloo Paaji 2', sans-serif;
+}
+
+body {
+    background-color: #FFD9EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+
+/* Seções principais */
+.sobre, .conscientizacao, .dicas {
+    border: solid 2px red;
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.content img {
+    width: 30%;
+}
+
+.tips {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.tip {
+    background-color: #FFD9EC;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Footer */
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* Responsividade */
+/*@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content img {
+        width: 70%;
+    }
+
+    .tips {
+        flex-direction: column;
+    }
+}*/
